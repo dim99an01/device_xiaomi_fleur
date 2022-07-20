@@ -116,7 +116,7 @@ PRODUCT_PACKAGES += \
     mtk-ims \
     mtk-ims-telephony
 
-# MtkInCallService
+# MTK In-call service
 PRODUCT_PACKAGES += \
     MtkInCallService
 
