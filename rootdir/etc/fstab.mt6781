@@ -102,4 +102,8 @@ product /product ext4 ro wait,slotselect,avb,logical,first_stage_mount
 /dev/block/platform/bootdevice/by-name/otp /otp emmc defaults defaults
 
 
+<<<<<<< HEAD
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
+=======
+/dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
+>>>>>>> e2200b6... fleur: import rootdirs stuff from stock
