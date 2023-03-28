@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fleur.mk
+    $(LOCAL_DIR)/arrow_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_fleur-user \
-    lineage_fleur-userdebug \
-    lineage_fleur-eng
+    arrow_fleur-user \
+    arrow_fleur-userdebug \
+    arrow_fleur-eng
