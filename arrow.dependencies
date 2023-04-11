@@ -5,14 +5,11 @@
 	},
 
 	{
-		"remote":	"github",
-		"repository":	"LineageOS/android_device_mediatek_sepolicy_vndr",
+		"repository":	"android_device_mediatek_sepolicy_vndr",
 		"target_path":	"device/mediatek/sepolicy_vndr",
 	},
 	{
-		"remote":	"github",
 		"repository":	"hardware_xiaomi",
 		"target_path":	"hardware/xiaomi",
-		"branch":	"thirteen"
 	}
 ]
