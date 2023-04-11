@@ -169,6 +169,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.mt6781.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/hw/init.mt6781.rc
 
+# Telephony
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+
 # Symbols
 PRODUCT_PACKAGES += \
     libshim_vtservice \
